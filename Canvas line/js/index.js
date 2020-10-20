@@ -8,7 +8,7 @@
 
     function initHeader() {
         width = window.innerWidth;
-        height = window.innerHeight;
+        height = window.innerHeight-130;
         target = {x: width/2, y: height/2};
 
         largeHeader = document.getElementById('large-header');
